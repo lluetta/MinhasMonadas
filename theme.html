@@ -1,0 +1,52 @@
+<HTML>
+<HEAD>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<TITLE>Suporte online</TITLE>
+<META NAME="Generator" CONTENT="EditPlus">
+<META NAME="Author" CONTENT="">
+<META NAME="Keywords" CONTENT="">
+<META NAME="Description" CONTENT="">
+<SCRIPT LANGUAGE="JavaScript" src="ajaxall.js"></SCRIPT>
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+function send(){ var k = Array('name','msg'); var v = Array(document.frm.name.value, document.frm.msg.value); var q = Ajax.makeQuery(k,v); Ajax.set('index.php',q,'txt','',''); Ajax.post(); document.frm.msg.value = ''; document.frm.msg.focus(); return false; } function LoadMsgs() { Ajax.set('get.php','open=1','txt','msgs',function(){Ajax.writeId();}); Ajax.get(); setTimeout('LoadMsgs()',800); }
+//-->
+</SCRIPT>
+<STYLE TYPE="text/css" TITLE="">
+@charset "charset";
+body { @charset "charset";background-color: #ffffff; text-align:center; } body, table, td, tr, form, input { font-family:sans-serif; font-size:10pt; } form { margin:0px; padding:0px; } h3 { display:inline; } #body { background-image:url(themes/ecm/images/background.gif); width:300px; height:500px; text-align:left; } #subtitletd { background-color: #B9DCFF; border-style:solid; border-color: #0059B3; border-width:1px; width:290px; text-align:left; } #msgs { background-color:white; border-style:solid; border-color: #0059B3; border-width:1px; width:290px; height:200px; text-align:left; }
+</STYLE>
+</HEAD>
+
+<BODY onload="LoadMsgs();document.frm.msg.focus();">
+
+<CENTER><DIV id="body" accept-charset="utf-8">
+<br>&nbsp;&nbsp;&nbsp;<IMG SRC="themes/ecm/images/ico.gif" ALT="" align="center" width="64" height="64">&nbsp;<B>
+    <H3>Suporte Online H4cker<br>
+      &nbsp;
+</H3></B><CENTER><div id="subtitletd">&nbsp;ECM_WELCOME</div>
+<br>
+<div id="msgs"></div>
+<DIV ALIGN="center" style="font-family:sans-serif;font-size:10pt;" accept-charset="utf-8">
+<FORM METHOD=POST ACTION="get.php" name="frm"  id="frm" onsubmit="send();return false;" accept-charset="utf-8">
+&nbsp;<TABLE height="50">
+<TR>
+	<TD>Nome:</TD>
+	<TD><INPUT TYPE="text" NAME="name" id="name" value="NICK_NAME" accept-charset="utf-8"></TD>
+	<TD rowspan="2" colspan=2><INPUT TYPE="submit" value="Enviar" style="width:50px;height:50px;border-width:1px;" accept-charset="utf-8"></TD>
+</TR>
+<TR>
+	<TD>Texto:</TD>
+	<TD><INPUT TYPE="text" NAME="msg" id="msg" accept-charset="utf-8"></TD>
+	
+</TR>
+</TABLE>
+&nbsp;&nbsp;<br>
+&nbsp;
+</FORM>
+</DIV></CENTER>
+</DIV>
+</CENTER>
+<p><span style="font-size:7.8px">Script do chat com base no script de <a href="https://www.scriptbrasil.com.br/codigos/php/batepapo-php/" target="_blank">Mine Chat(Redehacker)</a> e <a href="https://www.scriptbrasil.com.br/download/codigo/6708/" target="_blank">Bate-Papo TXT Corrigido(de Phillip Eduardo Pimenta Forte)</a></span><br class="auto-style2"></BODY>
+</BODY>
+</HTML>
