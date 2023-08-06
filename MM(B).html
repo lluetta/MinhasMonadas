@@ -1,0 +1,541 @@
+<?php
+header('Content-Type: text/html; charset=UTF-8');
+?>
+
+<html>
+<head>
+<title>Cadernos de Luciene Bulhões Mattos - Coleção Minhas Mônadas</title>
+<meta charset="UTF-8">
+<meta name="keywords" content="Luciene Bulhões Mattos">
+<meta name="author" content="Luciene Bulhões Mattos">
+<meta nane="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="caderno.css"> 
+<style>
+.texto {
+  font-family: Darleston;
+  font-style: normal;
+  font-weight: 400;
+}
+.newspaperpre {
+        margin: auto;
+        width:1280px;
+        height:520px;
+        margin-top:0px;
+        text-align:justify;
+        align:center;
+        padding:20px;
+        -webkit-column-count: 2; /* Chrome, Safari, Opera */
+        -moz-column-count: 2; /* Firefox */
+        column-count: 2;
+        column-gap:20px;
+        column-rule: 0.0px dotted black;
+        line-height:100%;
+        z-index:2;
+}
+.onmover {
+color:blue;
+font-size:16px;
+text-decoration:none;
+}
+#Q1 {
+position:absolute;
+border:1px;
+text-align:justify;
+background-color:white;
+left:280px;
+top:308px;
+z-index:2;
+width:520px;
+height:40px;
+padding:8px;
+}
+#P1 {
+position:absolute;
+border:1px;
+text-align:justify;
+background-color:white;
+left:280px;
+top:308px;
+z-index:2;
+width:520px;
+height:40px;
+padding:8px;
+}
+#P2 {
+position:absolute;
+border:1px;
+text-align:justify;
+background-color:white;
+left:280px;
+top:323px;
+z-index:2;
+width:520px;
+height:170px;
+padding:8px;
+}
+#P3 {
+position:absolute;
+border:1px;
+text-align:justify;
+background-color:white;
+left:280px;
+top:340px;
+z-index:2;
+width:520px;
+height:170px;
+padding:8px;
+}
+#P4 {
+position:absolute;
+border:1px;
+text-align:justify;
+background-color:white;
+left:280px;
+top:356px;
+z-index:2;
+width:520px;
+height:170px;
+padding:8px;
+}
+#P5 {
+font-size:14.9px;
+position:absolute;
+border:1px;
+text-align:justify;
+background-color:white;
+right:34px;
+top:20px;
+z-index:2;
+width:470px;
+height:550px;
+padding:12px;
+line-height:109%;
+}
+#P6 {
+position:absolute;
+border:1px;
+text-align:justify;
+background-color:white;
+right:100px;
+top:100px;
+z-index:2;
+width:470px;
+height:120px;
+padding:12px;
+line-height:109%;
+}
+#myP1 {
+position:absolute;
+border:1px;
+text-align:justify;
+background-color:white;
+left:140px;
+top:320px;
+z-index:2;
+width:520px;
+height:170px;
+padding:8px;
+}
+#myP2 {
+position:absolute;
+color:black;
+text-align:justify;
+background-color:white;
+left:140px;
+top:400px;
+z-index:2;
+width:520px;
+height:120px;
+padding:8px;
+}
+#myP3 {
+position:absolute;
+color:black;
+text-align:justify;
+background-color:white;
+left:140px;
+top:420px;
+z-index:2;
+width:520px;
+height:120px;
+padding:8px;
+}
+#myP4 {
+position:absolute;
+color:black;
+text-align:justify;
+background-color:white;
+left:140px;
+top:440px;
+z-index:2;
+width:520px;
+height:50px;
+padding:8px;
+}
+#myP5 {
+position:absolute;
+color:black;
+text-align:justify;
+background-color:white;
+left:140px;
+top:480px;
+z-index:2;
+width:520px;
+height:50px;
+padding:8px;
+}
+#myP6 {
+position:absolute;
+color:black;
+text-align:justify;
+background-color:white;
+left:100px;
+top:480px;
+z-index:2;
+width:320px;
+height:100px;
+padding:8px;
+}
+a:link {
+  color:blue;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color:#7A67EE;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:active {
+  color: #FFD700;
+  background-color: transparent;
+  text-decoration: none;
+}
+#seta {
+text-align:right;
+}
+</style>
+<script language="JavaScript" type="text/javascript">
+if (screen.width == "1920") { window.resizeTo(1920, 1080); }
+if (screen.width >= "1366") { window.resizeTo(1366, 768); }
+if (screen.width == "1366") { window.resizeTo(1366, 768); }
+if (screen.width == "1360") { window.resizeTo(1360, 768); } 
+if (screen.width == "1024") { window.resizeTo(1024, 768); } 
+if (screen.width == "800") { window.resizeTo(800, 600); } 
+if (screen.width <= "800") { window.resizeTo(640, 420); } 
+if (screen.width <= "960") { window.resizeTo(960, 480); } 
+</script>
+<script>
+function Visibility1() {
+  document.getElementById("myP1").style.visibility = "visible";
+}
+function Visibility2() {
+  document.getElementById("myP2").style.visibility = "visible";
+}
+function Visibility3() {
+  document.getElementById("myP3").style.visibility = "visible";
+}
+function Visibility41() {
+  document.getElementById("myP4").style.visibility = "visible";
+}
+function Visibility42() {
+  document.getElementById("myP5").style.visibility = "visible";
+}
+function VisibilityP1() {
+  document.getElementById("P1").style.visibility = "visible";
+}
+function VisibilityP2() {
+  document.getElementById("P2").style.visibility = "visible";
+}
+function VisibilityP3() {
+  document.getElementById("P3").style.visibility = "visible";
+}
+function VisibilityP4() {
+  document.getElementById("P4").style.visibility = "visible";
+}
+function VisibilityP5() {
+  document.getElementById("P5").style.visibility = "visible";
+}
+function Visibility4() {
+  document.getElementById("myP1").style.visibility = "hidden";
+}
+function Visibility5() {
+  document.getElementById("myP2").style.visibility = "hidden";
+}
+function Visibility6() {
+  document.getElementById("myP3").style.visibility = "hidden";
+}
+function Visibility7() {
+  document.getElementById("myP4").style.visibility = "hidden";
+}
+function Visibility8() {
+  document.getElementById("myP5").style.visibility = "hidden";
+}
+function Visibility9() {
+  document.getElementById("P1").style.visibility = "hidden";
+}
+function Visibility10() {
+  document.getElementById("P2").style.visibility = "hidden";
+}
+function Visibility11() {
+  document.getElementById("P3").style.visibility = "hidden";
+}
+function Visibility12() {
+  document.getElementById("P4").style.visibility = "hidden";
+}
+function Visibility13() {
+  document.getElementById("P5").style.visibility = "hidden";
+}
+
+</script>
+<script>
+function VisibilityP6() {
+  document.getElementById("P6").style.visibility = "visible";
+  document.getElementById("P6").style.width = "250px";
+}
+function Visibility14() {
+  document.getElementById("P6").style.visibility = "hidden";
+}
+</script>
+</head>
+<body style="text-decoration:none;overflow:hidden;">
+<div><center>
+    <div class="quadro" style="z-index:1;"><br>
+    		    <div class="cabecalho">Cadernos de Luciene Bulhões Mattos - Coleção Minhas Mônadas</div>
+        <div class="newspaperpre">
+<ol>
+<p style="margin-left:-40;">Ponderação 3 (Consideração 3)</p>
+<li  style="margin-left:25px;"><u><i>Cognitive ergonomics and production information systems under the gaze of interdisciplinary design or industrial design</i></u>, de 2012;
+<li  style="margin-left:25px;"><u>TAI++Felicidade?!</u>, de 2013.
+</li></li>
+</ol>
+
+<hr>
+<b>Revisão de texto/artigo</b><p>
+<p>MATTOS, Luciene Bulhões. O Eco<i>design</i> e a Linguagem entre os entornos de uma nova relação social, industrial e ambiental na Bahia, na primeira metade do século XXI: 
+princípios, conceitos, características, métodos, soluções.[...].
+
+<!--Escolas Filosóficas
+1 - https://metaeticasite.wordpress.com/2017/03/16/escolas-filosoficas/#:~:text=Escolas%20Filos%C3%B3ficas%20%281%29%201%20%281%29%20ESCOLA%20J%C3%94NICA%20Considerada,a%20410%20a.C.%20...%204%20%284%29%20ESCOLA%20ATOMISTA
+2 - Período Helenístico foram o cinismo, o ceticismo, o epicurismo e o estoicismo;
+3 - https://www.suapesquisa.com/filosofia/escolas_filosoficas_contemporaneas.htm
+"Movimentos filosóficos, abordagens, áreas e escolas filosóficas contemporâneas e principais filósofos representantes:
+Existencialismo(Principais filósofos: Frantz Fanon e Jean-Paul Sartre.);
+Pós-estruturalismo(Principais filósofos: Michel Focault, Gilles Deleuze e Jean-François Lyotard.);
+Escola de Frankfurt(Principais filósofos: Jürgen Habermas, Max Horkheimer, Theodor Adorno e Herbert Marcuse.);
+Desconstrução(Principais filósofos: Jacques Derrida.);
+Semiologia(Principais filósofos: Roland Barthes.);
+Filosofia Analítica(Principais filósofos: Mari Midgley, Richard Wollheim e Paul Feyerabend.);
+Teoria do Contrato Social(Principais filósofos: John Rawls.);
+Filosofia da Ciência(Principais filósofos: Thomas Kuhn e Isabele Stengers.);
+Pós-modernismo(Principais filósofos: Jean-François Lyotard.);
+Universalismo(Principais filósofos: Noam Chomsky.);
+Pragmatismo(Principais filósofos: Richard Rorty.);
+Feminismo(Principais filósofos: Luce Irigaray, Hélène Cixous e Júlia Kristeva.);
+Pós-colonialismo(Principais filósofos: Edward Said.);
+Etnografia)Principais filósofos: Henry Odera Oruka.);
+Marxismo(Principais filósofos: Slavoj Zizek.);
+Utilitarismo(Principais filósofos: Peter Singer e Richard Brandt)
+-->
+
+<!--
+"parâmetro", in Dicionário Priberam da Língua Portuguesa [em linha], 
+2008-2021, https://dicionario.priberam.org/par%C3%A2metro [consultado em 17-06-2022].
+Parâmetros: pa·râ·me·tro
+(para- + -metro)
+substantivo masculino
+1. [Geometria]  Linha constante que entra na equação ou construção de uma curva, e serve de medida fixa para comparar as ordenadas e as  abscissas.
+2. Característica ou variável que permite definir ou comparar algo.-->
+
+
+<br><li>Parâmetros(Ver 
+<span onMouseOver="Q1()" onMouseOut="Q1()"><a class="onmover" href="http://lucienebulhoesmattos.dx.am/minhas-monadas/Introducao.html" target="_blank">
+quadro</a>.)</li><br>
+<span id="Q1" style="visibility:hidden;">Filosofia, Ciência, Religião e prole;
+</span></span>
+
+<div><span onMouseOver="VisibilityP1()" onMouseOut="Visibility9()"><a class="onmover" href="#" target="_blank">
+(P1) O Poder(es) e a(s) Política(s)<br></a>
+<span id="P1" style="visibility:hidden;">Filosofia, Ciência, Religião e prole;
+</span></span>
+
+<span onMouseOver="VisibilityP2()" onMouseOut="Visibility10()"><a class="onmover" href="#" target="_blank">
+(P2) Historicismo/historicidade<br></a>
+<span id="P2" style="visibility:hidden;">Temporalidades;
+</span></span>
+
+<span onMouseOver="VisibilityP3()" onMouseOut="Visibility11()"><a class="onmover" href="#" target="_blank">
+(P3) Contemporaneidades<br></a>
+<span id="P3" style="visibility:hidden;">Entropias;
+</span></span>
+
+<span onMouseOver="VisibilityP4()" onMouseOut="Visibility12()"><a class="onmover" href="#" target="_blank">
+(P4) Controle Social<br></a>
+<span id="P4" style="visibility:hidden;">Filosofia, Ciência, Religião e Sociedade.
+</span></span>
+</div>
+
+<br><li>Critérios</li><br>
+<div><span onMouseOver="Visibility1()" onMouseOut="Visibility4()"><a class="onmover" href="#" target="_blank">(1) Critério 1<br></a>
+<span id="myP1" style="visibility:hidden;"><u>Da interpretação dos trechos do texto</u>, comentários de obras citadas nas referências e outras correlacionadas.
+<ol>• A escolha das obras citadas nas referências não obedecem ao caminho ditado na "História da Filosofia", na "História da Sociologia",
+e nos livros de História  porque a) busca-se inferir sobre o problema, ao invés de ditá-lo em suas manifestações fractais, 
+b) não se trata de um trabalho de História, pois ele está entre a historicidade e o historicismo, ou seja, no conflito e suas
+"provocações";</ol>
+<ol>• Nas considerações finais, haverá ou não interesse num "<i>momentum</i>", pois que a predominância behaviorista 
+daquele recorte demonstra intencionalidade.</ol>
+</span></span>
+
+<span onMouseOver="Visibility2()" onMouseOut="Visibility5()"><a class="onmover" href="#" target="_blank">(2) Critério 2</a><br>
+<span id="myP2" style="visibility:hidden;"><u>Quando das temporalidades</u>, as variáveis apontarão para problemas inerentes às idades moderna e contemporânea focando 
+o tema "O Desenho Contemporâneo do século XX e início da primeira metade do século XXI(1901-2021" nos sub-temas relacionados às seguintes áreas: Desenho, 
+Pintura, Artes Gráficas, <u>Design</u>, Projetos(Processos e Produto), Virtualização, Virtualidade, Inovação, Comunicação, Física, Química, Bioengenharia, Medicina, 
+Direito, Economia, Estado e Criminalidade, Matemática.
+</span></span>
+
+<span onMouseOver="Visibility3()" onMouseOut="Visibility6()"><a class="onmover" href="#">(3) Critério 3</a><br>
+<span id="myP3" style="visibility:hidden;"><u>Escolha do Texto 1</u> - Projeto de pesquisa: "MATTOS, Luciene Bulhões. O Eco<i>design</i> e a Linguagem entre os entornos de uma nova relação social, 
+industrial e ambiental na Bahia, na primeira metade do século XXI: 
+princípios, conceitos, características, métodos, soluções.[...]". O Contexto do problema envolvendo "Sociedade, Tecnologia e a Teoria do <i>Design</i>(Ora objeto, ora "cousa", ora pensamento).".
+</span></span>
+
+<span onMouseOver="Visibility41()" onMouseOut="Visibility7()"><a class="onmover" href="#">(4) Critério 4</a><br>
+<span id="myP4" style="visibility:hidden;"><u>Das correntes filosóficas</u> - Se existem príncipes, há pensamento; se há unicidade,
+existe pensamento, mas se existe multiplicidade, então tem-se correntes de pensamento(Luciene Bulhões Mattos, 17/06/2022, 11:27hs).".
+</span></span>
+
+<span onMouseOver="Visibility42()" onMouseOut="Visibility8()"><a class="onmover" href="#">(5) Critério 5</a><br>
+<span id="myP5" style="visibility:hidden;"><u>Da Teologia</u> - <u>A influência nos níveis de Controle Social, no espírito científico, nos padrões de 
+obstáculos epistemológicos, nas entropias e nos 'renascimentos'</u>". Observação e relato.
+</span></span>
+</div>
+
+<section style="line-height:90%">
+<p><u>O Século XX</u>
+<ul>
+- Fatos e acontecimentos
+<!--<ol>
+WIKIPÉDIA. Século XX. Disponível em: https://pt.wikipedia.org/wiki/Século_XX. Acesso em: 13/06/2022.;
+MÉLIES, Georges. Le Voyage dans la Lune.[primeiro filme de ficção científica.]. 1902.
+Disponível em: \<https://pt.wikipedia.org/wiki/Ficheiro:Le_Voyage_Dans_La_Lune.ogv\>. Acesso em: 13/06/2022.
+MARINHA DO BRASIL(Resenha). Uma breve história do século XX. Disponível em: 
+\<https://www.marinha.mil.br/ensino/sites/www.marinha.mil.br.ensino/files/proleitura/Resenha-do-livro-UMA-BREVE-HISTORIA-DO-SECULA-XX-CT-FELIPE-LUIZ-DA-SILVA-_EN_0.pdf\>. Acesso em: 13/06/2022.
+BLAINEY, Geoffrey. Uma breve história do século XX. Versão brasileira da editora - 21
+a edição - São Paulo, SP: Editora Fundamento Educacional, 2010
+</ol>-->
+
+<p><li>Hipótese:</li>
+
+<br>Poderá o 
+<span onMouseOver="VisibilityP5()" onMouseOut="Visibility13()"><a class="onmover" href="#" target="_blank">
+<i>design</i><sup>6</sup> </a>
+<span id="P5" style="visibility:hidden;"><sup>6</sup>(cousa, coisa)Produto ou peça visual, gráfica, digital, virtual, atendendo aos requisitos 
+de planejamento, forma, função e estética para a produção em série, por demanda ou customizado em pequena demanda (manufaturas).
+<br>Definição: <br>
+"design |dezáine| ou |dizáine|<br>
+(palavra inglesa)<br>
+substantivo masculino<br>
+1. Disciplina que visa a criação de  objetos, ambientes, obras gráficas, etc., ao mesmo tempo funcionais, estéticos e 
+conformes aos imperativos de uma produção industrial.<br>
+2. Conjunto dos  objetos criados segundo estes critérios (ex.: vender <i>design</i>).<br>
+3. Aspecto de um produto criado segundo esses critérios (ex.: o <i>design</i> é inovador).<br>
+adjetivo de dois gêneros e de dois números<br>
+4. Criado, concebido segundo os critérios do <i>design</i> (ex.: móveis <i>design</i>).(PRIBERAM,2022)".
+
+<br><br>Conceitos(<i>Design</i> enquanto...:
+<br>a. Atividade projetual;
+<br>b. Planejamento e projeto;
+<br>c. Arte em ação;
+<br>d. Programação visual já com forma e função.
+<p><a href="./ppt/Apresentacao-Esquemas-Fichamentos-Resumos.pptx" target="_blank" alt="Causa"><i>Design</i></a> (Apresentação em .ppt)</p>
+Conceituação
+<br>Século XX
+<br>Atividade projetual voltada para a satisfação das necessidades humanas obedecndo aos requisitos de forma e função.
+
+<br><br>Século XXI
+<br>Atividade projetual gráfica e/ou artística cujos planejamento e projeto obedecem aos requisitos de forma, função e padrões estéticos
+estruturais(materiais específicos) modais até amodais, variando de acordo aos objetivos, forma de fabricação e finalidade.
+
+</span></span>enquanto elemento da <a href="https://dicionario.priberam.org/contemporâneo" target="_blank" alt="Causa">
+contemporaneidade</a> direcionado à 
+<span onMouseOver="VisibilityP6()" onMouseOut="Visibility14()">
+<a class="onmover" href="https://dicionario.priberam.org/causa" target="_blank" alt="Causa">causa</a>
+<span id="P6" style="visibility:hidden;z-index:6;">"[...]em causa
+<br>• Que está em análise ou em discussão (ex.: sobre o assunto em causa, não temos nada a acrescentar).
+<br>• Em risco; em perigo (ex.: o financiamento da investigação ficou em causa)(PRIBERAM, 2022).".
+</span></span>
+ 
+ambiental, ter na <a href="https://dicionario.priberam.org/ecologia" target="_blank" alt="Ecologia">Ecologia</a> 
+não somente seu objeto de estudo, mas tornar-se elemento de uma nova 
+<a href="https://dicionario.priberam.org/linguagem" target="_blank" alt="Linguagem">linguagem</a> 
+que contemple a <a href="https://dicionario.priberam.org/ecologia" target="_blank" alt="Ecologia">sustentabilidade</a><sup>7</sup>(MATTOS, p. 1. 2001)."?
+
+<p><li>Variáveis(Independentes e Dependentes)</li>
+
+<p>"Variável independente (X) é aquela que influencia, determina ou afeta outra variável;é fator determinante, condição ou causa
+para determinado resultado, efeito ou consequência. É o fator manipulado (geralmente) pelo investigador, na sua tentativa de assegurar a relação do fator com um
+fenômeno observado ou a ser descoberto, para verificar que influência exerce sobre um possível resultado(LAKATOS; MARCONI, p.163, 2017)."
+
+<p>"Variável dependente (Y) consiste em valores (fenômenos, fatores) a serem explicados ou descobertos, em virtude de serem influenciados,
+determinados ou afetados pela variável independente. É o fator que aparece, desaparece ou varia à medida que o investigador introduz, tira ou
+modifica a variável independente. Variável dependente é ainda a propriedade ou fator que é efeito, resultado, consequência ou resposta a
+algo que foi manipulado (variável independente)(LAKATOS; MARCONI, p.164, 2017)."</p>
+<li>Do problema</li>
+
+<p><a href="http://lucienebulhoesmattos.dx.am/minhas-monadas/int-Fundamentos(2).html" target="_blank" alt="Problema"><u>Contexto</u></a>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- V. independentes
+<ol>• Príncipes, principados; trabalhadores, coorporadores, muito ricos?</ol>
+<ol>• Há um rei;</ol>
+<ol>• Diversos absolutos.</ol>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- V. dependentes
+<ol>• Príncipes, principados; trabalhadores, coorporadores, muito ricos?</ol><br>
+</section>
+</center>
+<footer>
+<div style="text-align:left;margin-top:-20px;font-size:12px;">
+<a style="align:left;margin-left:30px;text-align:left;font-size:12px;" 
+href="http://lucienebulhoesmattos.dx.am/minhas-monadas/MM(A).html" target="_self" alt="MM(A).html">⇠  </a>
+Coleção Minhas Mônadas, Cadernos de Luciene Bulhões Mattos, v1, 
+O Desenho Contemporâneo do século XX e início da primeira metade do século XXI(1901-2021), Ano: 2022.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+<a href="http://lucienebulhoesmattos.dx.am/minhas-monadas/MM(C).html" target="_self" alt="MM(C).html">⇢</a>
+</div>
+	
+<!-- https://www.w3bai.com/pt/css/tryit.php?filename=trycss_ex_pagination-->
+<center>
+<ul class="pagination" style="font-size:13.8px;padding:6px;">
+  <li><a href="http://lucienebulhoesmattos.dx.am/minhas-monadas/" target="_self" alt="Capa">Capa  &nbsp;•</a></li>
+  <li><a href="#" target="_self" alt="Falsa folha de rosto">Falsa folha de rosto  &nbsp;•</a></li>  
+  <li><a href="folhaderosto.html" target="_self" alt=">Folha de rosto">Folha de rosto  &nbsp;•</a></li>
+  <li><a href="fichacatalografica.html" target="_self" alt="Ficha catalográfica">Ficha catalográfica  &nbsp;•</a></li>  
+  <li><a href="Dedicatoria.html" target="_self" alt="Dedicatória ">Dedicatória  &nbsp;•</a></li>  
+  <li><a href="#" target="_self" alt="Agradecimento">Agradecimento  &nbsp;•</a></li>
+  <li><a href="Epigrafe.html" target="_self" alt="Epígrafe">Epígrafe  &nbsp;•</a></li> 
+  <li><a class="active" href="Prefacio(1).html" target="_self" alt="Prefácio">Prefácio  &nbsp;•</a></li>
+  <li><a href="sumario.html" target="_self" alt="Sumário">Sumário  &nbsp;•</a></li>
+  <li><a href="listadefiguras.html" target="_self" alt="Lista de figuras">Lista de figuras  &nbsp;•</a></li>
+  <li><a href="listadetabelas.html" target="_self" alt="Lista de tabelas">Lista de tabelas  &nbsp;•</a></li>
+  <li><a href="Introducao.html" target="_self" alt="Introdução">Introdução  &nbsp;•</a></li>
+  <li><a class="active" href="MM(A).html" target="_self" alt="Métodos-Metodologias"><b>Metodologias</b>  &nbsp;•</a></li>    
+  <li><a href="int-Fundamentos(2).html" target="_self" alt="Fundamentos">Fundamentos</a></li>
+<!--  <li><a href="caderno2-1.html" target="_self" alt="Capa">8</a></li>
+  <li><a href="caderno3-1.html" target="_self" alt="Capa">9</a></li>
+  <li><a href="caderno4-1.html" target="_self" alt="Capa">10</a></li>
+  <li><a href="caderno5-1.html" target="_self" alt="Capa">11</a></li>
+  <li><a href="caderno6-1.html" target="_self" alt="Capa">12</a></li>
+  <li><a href="caderno7-1.html" target="_self" alt="Capa">13</a></li>
+  <li><a href="caderno8-1.html" target="_self" alt="Capa">14</a></li>
+  <li><a href="caderno9-1.html" target="_self" alt="Capa">15</a></li>-->
+  <li><a href="int-HistoriadasNacoes(2-1).html" target="_self" alt="Capa">»</a></li>
+</ul></center>
+</footer>
+</body></html>

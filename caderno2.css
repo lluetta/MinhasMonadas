@@ -1,0 +1,29 @@
+.newspaperhist2 {
+        width:1024px;
+        height:520px;
+        margin-top:1px;
+        text-align:justify;
+        padding:8px;
+        -webkit-column-count: 3; /* Chrome, Safari, Opera */
+        -moz-column-count:3; /* Firefox */
+        column-count: 3;
+        column-gap:8px;
+        column-rule: 0.0px dotted black;
+        
+}
+.newspaperpre {
+        width:1024px;
+        height:520px;
+        margin-top:0px;
+        text-align:justify;
+        align:center;
+        padding:10px;
+        -webkit-column-count: 3; /* Chrome, Safari, Opera */
+        -moz-column-count: 3; /* Firefox */
+        column-count: 3;
+        column-gap:10px;
+        column-rule: 0.0px dotted black;
+        line-height:50%;
+        z-index:3;
+        line-height:100%;
+}

@@ -1,0 +1,39 @@
+body {background-color: #FFF8DC; margin-top: 20px; background-size: 1024px 768px;}
+
+#titulo {font-family: Times; font-size:18px; font-weight:bold; color: #F4A460; text-align:center; width: 50px; height:40px; border: 0px solid black; padding:  1em 1em; border-radius: 16px; font-size: 10px; line-height: 0; margin-right: 20px; background-color: #FFDAB9; transition-duration: 4s; transition-timing-function: ease-in; transition-delay: 1s; transition-iteration-count: infinite;transition-direction: reverse;
+animation-duration: 6s; 
+animation-name: changewidth; 
+animation-iteration-count: infinite; animation-direction: alternate; }
+}
+#titulo:hover {width: 120px;
+}
+
+@keyframes changewidth { 
+from { width: 50px; } 
+to { width: 120px; } 
+} 
+
+
+
+#text_list { font-family: Times; font-size: 12px; font-weight:bold; text-align: left;}
+
+.artigo {position: absolute; margin-left: 20 px; margin-top: 30px; font-family: Times; font-size: 14px; font-weight:bold;justify; border: 1px solid #FFDAB9; padding:  1em 1em; border-radius: 16px; font-size: 10px; line-height: 1; background-color: #FFDAB9;}
+#notas{position:relative; font-family: Times; font-size: 8px; border-box: 1px ;}
+
+#section{ font-family: Times; font-size: 16px; color: #F4A460; width: 70px; border: 0px solid black; padding:  1em 1em; border-radius: 16px; font-size: 10px; line-height: 0; background-color:#DCDCDC;}
+
+#aside {position: relative; margin-left:360px; margin-top: 42px; width: 180px; height: 120px; border: 0px solid black; padding:  1em 1em; border-radius: 16px; font-size: 10px; line-height: 0;  background-color:#FFDAB9;}
+
+#aside2 {position:relative; margin-left:360px; margin-top: 40px; width: 180px; height: 120px; border: 0px solid black; padding:  1em 1em; border-radius: 16px; font-size: 10px; line-height: 0;  background-color: #FFDAB9;}
+
+#aside3 {position:relative; margin-left:360px; margin-top: 30px; width: 180px; height: 120px; border: 0px solid black; padding:  1em 1em; border-radius: 16px; font-size: 10px; line-height: 0;  background-color:#FFDAB9;}
+
+#notas{position:relative; font-family: Times; font-size: 8px; color: #F4A460;
+ border-box: 1px ;  border: 0px solid black; padding:  1em 1em; border-radius: 16px; font-size: 10px; line-height: 0; width: 40px;
+background-color:#DCDCDC;}
+
+#align_center{center;}
+#div_fotos: { width: 100%; display: block; text-align: center; vertical-align: middle; background-color:#DCDCDC
+}
+
+

@@ -1,0 +1,115 @@
+h1 {
+	color: black;
+}
+body{
+        text-decoration:none;
+}
+ul.pagination {
+        display: inline-block;
+        padding: 0px;
+        margin: 0px;
+}
+ul.pagination li {display: inline;}
+ul.pagination li a {
+        color: black;
+        float: left;
+        padding: 2px 6px;
+        text-decoration: none;
+}
+.quadro {
+   width:100%;
+   height:600px;
+   border-style: solid;
+   border-width: 0.5px 0.5px 0.5px 0.5px;
+   text-align:center;
+}
+.newspaper {
+        width:1024px;
+        height:520px;
+        margin-top:1px;
+        text-align:justify;
+        padding:10px;
+        -webkit-column-count: 2; /* Chrome, Safari, Opera */
+        -moz-column-count: 2; /* Firefox */
+        column-count: 2;
+        column-gap:10px;
+        column-rule: 0.0px dotted black;
+        z-index:2;
+}
+.newspaperhist {
+        width:1024px;
+        height:520px;
+        margin-top:1px;
+        text-align:justify;
+        padding:10px;
+        -webkit-column-count: 4; /* Chrome, Safari, Opera */
+        -moz-column-count:4; /* Firefox */
+        column-count: 4;
+        column-gap:10px;
+        column-rule: 0.0px dotted black;
+        
+}
+#cabecalho {
+        margin-top:1px;
+        font-size:24px;
+        text-align:center; 
+        padding: 10px;
+}
+#epocas{
+
+        width:400px;
+
+}
+
+#prehistoria{
+
+        width:400px;
+
+}
+.content {
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top:2px;
+        padding: 10px;
+        width:980px;
+        height: 520px;
+        border: 0.5px solid black;	
+        font-size:14px;		
+        }
+.content1 {
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top:0px;
+        padding: 2px;
+        width: 940px;
+        height: 250px;
+        text-align:justify;     
+}
+.content2 {
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top:5px;
+        padding: 10px;
+        width: 1290px;
+        height: 520px;
+        border: 0.5px solid black;	
+        font-size:14px;		
+}
+#rodape {
+        clear:both;
+        margin-top:0px;
+        text-align:left;
+        font-size:8px;			
+}
+#rodape2 {
+        clear:both;
+        margin-top:0px;
+        text-align:right;
+        font-size:9px;			
+}
+.texto {
+  font-family: Darleston;
+  font-style: normal;
+  font-weight: 400;
+  font-size:12px;
+}

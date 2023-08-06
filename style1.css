@@ -1,0 +1,254 @@
+﻿/*
+** This CSS code is not done to the web.
+** The automatic HTML and CSS code are only a helper.
+*/
+
+body {
+margin: 0 auto;
+font-size:10px;
+border: 0;
+font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+height:596px;
+overflow:hidden;
+	
+}
+
+.div-left {
+position: absolute;
+top: 60px;
+left: 0px;
+width: 195px;
+padding: 5px;
+background-color: #f9f2f9;
+}
+.div-left-down {
+position: absolute;
+top: 400px;
+left: 0px;
+width: 195px;
+padding: 5px;
+background-color: #f9f2f9;
+}
+.div-matematica {
+position: absolute;
+top:  60px;
+left:  956px;
+margin: 0px;
+padding: 0px;
+width: 350px;
+background-color: #f9f2f9;
+}
+
+.div-right {
+position: absolute;
+top: 40px;
+left: 390px;
+padding: 0px;
+width: 177px;
+background-color: ;
+}
+
+.div-right-down {
+position: absolute;
+top: 370px;
+left: 390px;
+padding: 0px;
+width: 177px;
+background-color: ;
+}
+
+.div-form {
+position: absolute;
+z-index: 1;
+top:  380px;
+left:  380px;
+width: 200px;
+margin: 15px;
+background-color: #f9f2f9;
+}
+
+.div-right-courses {
+position: absolute;
+top: 0px;
+left: 746px;
+width: 171px;
+height: 350px;
+margin-top: 0px;
+background-color:  ;
+}
+
+.div-right-courses-math {
+position: absolute;
+top: 0px;
+left: 746px;
+margin: 0px;
+margin-top: 0px;
+width: 600px;
+height: 600px;
+background-color:  ;
+}
+
+.div-aba-center {
+position: absolute;
+top: 0px;
+left: 595px;
+margin: 0px;
+padding: 5px;
+width: 110px;
+height: 600px;
+background-color:  ;
+scrolling: yes;
+}
+
+.div-aba-math {
+position: absolute;
+top: 0px;
+z-index: 1;
+left: 738px;
+margin: 0px;
+margin-left:10px;
+padding: 15px;
+width: 596px;
+height: 598px;
+background-repeat: no-repeat;
+background-image:url(svg/LBM-Web-Science.png);
+}
+
+.doacoes {
+padding-left:10px;
+padding-top:2px;
+}
+
+.bg {
+background-image:url(img/VM.jpg);
+
+}
+
+.sumario {
+position: absolute;
+top: 0px;
+left: 739px;
+margin: 0px;
+padding: 0px;
+width: 597px;
+height: 597px;
+background-color: #f9f2f9;
+scrolling: yes;
+}
+
+#texto10px {
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-size:10px;
+	alignment-adjust:left;
+	color: #7f3301;
+        font-weight: bold;
+}
+
+#texto8px {
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-size:8px;
+	alignment-adjust:left;
+	color: #7f3301;
+        
+}
+#texto8px-2 {
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-size:10px;
+	alignment-adjust:right;
+	color: #7f3301;
+        margin-left: 15px;
+        
+}
+#texto8px-2bold {
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-size:10px;
+	font-weight: bold;
+	alignment-adjust:right;
+	color: #7f3301;
+	margin-left: 15px;
+        
+}
+#texto8px-2bold2 {
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-size:10px;
+	font-weight: bold;
+	color: #7f3301;
+	margin-left: 15px;
+        
+}
+.texto22bold {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #7f3301;
+	margin-left: 15px;
+	vertical-align: top;
+}
+
+.champ{
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-size:10px;
+	font-weight: bold;
+	color: #7f3301;
+	width:300px;
+	margin-left: 5px;
+	margin-right:5px;
+}
+
+form div {
+margin-bottom: 0em;
+}
+
+div.submit input {
+margin-left: 0px;
+font-size: 10px;
+}
+
+label.field{
+font-family: Lucida Grande, Lucida Sans Unicode, Lucida Sans, DejaVu Sans, Verdana, sans-serif;
+font-size: 10px;
+display: block;
+margin-left: 0px;
+width: 160px;
+text-align: left;
+color: #7f3301;
+}
+
+input[type=text], select, textarea {
+width: 300px;
+font-type: Lucida Grande, Lucida Sans Unicode, Lucida Sans, DejaVu Sans, Verdana, sans-serif;
+font-size: 10px;
+border: solid 1px #7f3301;
+background-color: #f9f2f9;
+}
+
+div.required label.field {
+font-weight: normal;
+font-type: Lucida Grande, Lucida Sans Unicode, Lucida Sans, DejaVu Sans, Verdana, sans-serif;
+}
+
+div.required input, div.required select  {
+background-color: #f9f2f9;
+border: solid 1px #7f3301;
+
+}
+
+#texto12px {
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-size: 12px;
+	text-align: left;
+	color: #7f3301;
+        font-weight: bold;
+        
+}
+.pagination {
+    display: inline-block;
+}
+
+.pagination a {
+	text-align:center;
+    color: black;
+    float: left;
+    padding: 6px 12px;
+    text-decoration: none;
+}
