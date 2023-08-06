@@ -1,3 +1,1 @@
-Olá! Evitem uso de acentos e "ç", pois os caracteres especiais não estão sendo reconhecidos.
-
-Deixe seu recado
+ssss
